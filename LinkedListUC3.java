@@ -1,14 +1,12 @@
-public class LinkedListUC2<E> {
-
-    public Node<E> head = null;
+public class LinkedListUC3 {
 
     public static void main(String[] args) {
 
         LinkedListMethods<Integer> list = new LinkedListMethods<>();
 
-        list.addNode(56);
-        list.addNode(30);
-        list.addNode(70);
+        list.addLast(56);
+        list.addLast(30);
+        list.addLast(70);
 
         list.display();
     }
